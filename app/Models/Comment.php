@@ -12,7 +12,7 @@ class Comment extends Model
      * $this->attributes['id'] - int - contains the product primary key (id)
      * $this->attributes['description'] - string - contains the comment description
      * $this->product - Product - contains the associated Product
-     * $this->comments - Comment[] - contains the associated comments 
+     * $this->comments - Comment[] - contains the associated comments
      */
     protected $fillable = ['description', 'product_id'];
 
